@@ -1,15 +1,26 @@
 # Symmetric Cryptographic Encryption in Python.
 # done by @Sri_Programmer
 # Python v3.7.0
+print('''
+_________ __________ _____.___.__________ ________________________________ 
+\_   ___ \\______   \\__  |   |\______   \\__    ___/\_   _____/\______   \
+/    \  \/ |       _/ /   |   | |     ___/  |    |    |    __)_  |       _/
+\     \____|    |   \ \____   | |    |      |    |    |        \ |    |   \
+ \______  /|____|_  / / ______| |____|      |____|   /_______  / |____|_  /
+        \/        \/  \/                                     \/         \/ 
+
+        ''')
 
 __author__ = 'Sri Manikanta Palakollu'
 
 import sys
+import os
 
-original_information_filename = input('Enter the filename for Original with .txt extension:')
+original_information_filename = input('Enter the filename for Originalwith .txt extension:')
 encrypted_file_name = input('Enter the Ciphertext filename with .txt extension:')
 
-print('Enter the data into the file to Encrypt:')
+print('Enter the data into the file to Encrypt :')
+print('Press CTRL+D After giving the input to be encrypted :)')
 user_input = sys.stdin.readlines()	# CTRL + D to break the input
 
 captial_letter = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'	# [A-Z]
@@ -56,3 +67,16 @@ except (FileNotFoundError, IOError):
 finally:
 	encrypt_file.close()
 	cipher_text.close()
+
+print('Do you want to keep the original data file [y/n]')
+
+while True:
+	result = input()
+	if (result == 'y' or result == 'Y'):
+		sys.exit(0)
+	elif (result == 'n' or result == 'N'):
+		os.remove(original_information_filename)
+		break
+	else:
+		print('Enter a valid choice:')
+
