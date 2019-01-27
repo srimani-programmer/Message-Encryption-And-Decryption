@@ -28,7 +28,7 @@ decrypted_file_object = open(decrypted_file,'w+')
 try:
 	for line in encrypted_file_object: # To read data from the file
 		Decryted_value = ''
-		line = line[:-1]
+		line = line[:-2]
 		for character in line:
 			if character.isupper() == True:
 				ele_position = captial_letter.find(character)
