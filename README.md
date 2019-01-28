@@ -22,6 +22,14 @@
 
 ![](Images/Cipher_text_generated_file.png)
 
+### Original and Encrypted files:
+
+Given information by user.
+![](Images/My_information.png)
+
+Cipher text generated.
+![](Images/Cipher_text.png)
+
 ### Decryption
 
 ![](Images/Decryption Window.png)
@@ -31,6 +39,10 @@
 
 #### Generated Original file after Decryption:
 ![](Images/Decrypted_file_picture.png)
+
+### Original generated text:
+
+![](Images/Decrypted_info.png)
 
 
 ## Dependencies:
