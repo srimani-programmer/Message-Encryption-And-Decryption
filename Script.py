@@ -1,15 +1,6 @@
 # Symmetric Cryptographic Encryption and Decryption in Python.
 # done by @Sri_Programmer
 # Python v3.7.0
-print('''
-_________ __________ _____.___.__________ ________________________________ 
-\_   ___ \\______   \\__  |   |\______   \\__    ___/\_   _____/\______   \
-/    \  \/ |       _/ /   |   | |     ___/  |    |    |    __)_  |       _/
-\     \____|    |   \ \____   | |    |      |    |    |        \ |    |   \
- \______  /|____|_  / / ______| |____|      |____|   /_______  / |____|_  /
-        \/        \/  \/                                     \/         \/ 
-
-        ''')
 
 __author__ = 'Sri Manikanta Palakollu'
 
@@ -23,7 +14,7 @@ key = 6
 
 
 def Encryption(filename): # Encrypts the file
-
+	
 	print('Enter the data into the file to Encrypt :')
 	print('Press CTRL+D After giving the input to be encrypted :)')
 	user_input = sys.stdin.readlines()	# CTRL + D to break the input
@@ -136,10 +127,22 @@ if __name__ == "__main__":
 		print('2. Decryption')
 		choice = int(input('Select your Choice:'))
 		if(choice == 1):
+			print('''  ___                       _   _          
+ | __|_ _  __ _ _ _  _ _ __| |_(_)___ _ _  
+ | _|| ' \/ _| '_| || | '_ \  _| / _ \ ' \ 
+ |___|_||_\__|_|  \_, | .__/\__|_\___/_||_|
+                  |__/|_|                  
+                  ''')
 			original_information_filename = input('Enter the filename to store Original information with .txt extension:')
 			Encryption(original_information_filename)
 			break
 		elif(choice == 2):
+			print('''  ___                       _   _          
+ |   \ ___ __ _ _ _  _ _ __| |_(_)___ _ _  
+ | |) / -_) _| '_| || | '_ \  _| / _ \ ' \ 
+ |___/\___\__|_|  \_, | .__/\__|_\___/_||_|
+                  |__/|_|                  
+                  ''')
 			encrypted_file = input('Enter the Ciphertext file name with Extension:')	# Encrypted file as input
 			Decryption(encrypted_file)
 			break
