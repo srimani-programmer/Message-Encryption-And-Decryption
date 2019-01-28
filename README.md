@@ -32,7 +32,7 @@ Cipher text generated.
 
 ### Decryption
 
-![](Images/Decryption Window.png)
+![](Images/Decryption\ Window.png)
 
 1.Image while decryption is done. 
 ![](Images/Decryption_process.png)
