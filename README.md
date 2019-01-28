@@ -18,6 +18,17 @@
 
 ![](Images/Data_Entry.png)
 
-##### Generated File after Encryption:
+#### Generated File after Encryption:
 
 ![](Images/Cipher_text_generated_file.png)
+
+### Decryption
+
+![](Images/Decryption Window.png)
+
+1.Image while decryption is done. 
+![](Images/Decryption_process.png)
+
+#### Generated Original file after Decryption:
+![](Images/Decrypted_file_picture.png)
+
