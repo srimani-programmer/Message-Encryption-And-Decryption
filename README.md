@@ -18,7 +18,7 @@
 
 ![](Images/Data_Entry.png)
 
-#### Generated File after Encryption:
+#### Generated Files after Encryption:
 
 ![](Images/Cipher_text_generated_file.png)
 
@@ -31,4 +31,13 @@
 
 #### Generated Original file after Decryption:
 ![](Images/Decrypted_file_picture.png)
+
+
+## Dependencies:
+
+1. python v3.6.6 is required.
+
+## Disclaimer:
+
+Please read the license information carefully before using it commercially.
 
