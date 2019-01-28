@@ -4,6 +4,8 @@
 
 __author__ = 'Sri Manikanta Palakollu'
 
+# imports 
+
 import sys
 import os
 
@@ -119,6 +121,8 @@ def Decryption(encrypted_file):	# produces the original result
 		decrypted_file_object.close()
 
 
+# Program Start point
+
 if __name__ == "__main__":
 
 	while True:
@@ -133,7 +137,7 @@ if __name__ == "__main__":
  |___|_||_\__|_|  \_, | .__/\__|_\___/_||_|
                   |__/|_|                  
                   ''')
-			original_information_filename = input('Enter the filename to store Original information with .txt extension:')
+			original_information_filename = input('Enter the filename to store Original information:')
 			Encryption(original_information_filename)
 			break
 		elif(choice == 2):

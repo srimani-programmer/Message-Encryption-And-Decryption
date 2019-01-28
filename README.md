@@ -20,4 +20,4 @@
 
 ##### Generated File after Encryption:
 
-![](Images/Cipher_text_generation file..png)
+![](Images/Cipher_text_generated_file.png)
