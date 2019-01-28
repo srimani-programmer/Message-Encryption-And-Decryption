@@ -28,7 +28,7 @@ Given information by user.
 ![](Images/My_information.png)
 
 Cipher text generated.
-![](Images/Cipher_text.png)
+![](Images/cipher_text.png)
 
 ### Decryption
 
